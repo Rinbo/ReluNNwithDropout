@@ -6,8 +6,8 @@
 
 function [R] = reluDerivative (z)
 
-R = (z>=0);
-R = double(R);
-R(find(R==0)) = 0.01;
+  R = (z>=0);
+  R = double(R);
+  R(find(R==0)) = 0.01;
 
 endfunction

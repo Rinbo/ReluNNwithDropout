@@ -5,7 +5,7 @@
 
 function acc = performance (H, Y)
 
-[dummy, predicted_digit] = max(H);
-acc = mean(predicted_digit' == Y);
+  [dummy, predicted_digit] = max(H);
+  acc = mean(predicted_digit' == Y);
 
 endfunction
