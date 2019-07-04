@@ -1,5 +1,8 @@
-ReluNNwithDropout
-Robin Börjesson 2018-03-30
+# Neural Net with Dropout
+
+- Created: 2017-05-30
+- Published: 2018-03-30
+- Refactored: 2019-06-23
 
 This neural network is of a standard architecture with 2 hidden layers. The number of nodes in the hidden layers is customizable. The same goes for the minibatch size, epochs and of course alpha (learning rate). Activation function used is Relu (leaky). Optimzation method is mini-batch gradient descent.
 
